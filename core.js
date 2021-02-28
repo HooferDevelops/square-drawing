@@ -28,7 +28,7 @@ sourceLabel.text = "source code"
 sourceLabel.setParent(sourceFrame)
 sourceLabel.position = _.Math.Vector2.new(480*1.5/2-75,3)
 sourceLabel.size = 12
-creditsFrame.onMouse1Down(function(){
+sourceFrame.onMouse1Down(function(){
 	window.open("https://github.com/HooferDevelops/square-drawing");
 })
 
